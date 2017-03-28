@@ -1,6 +1,7 @@
 ---
 applications:
 - name: gotty
+  buildpack: https://github.com/cloudfoundry/go-buildpack.git#v1.7.19
   command: gotty -w bash
   memory: 128m
   env:

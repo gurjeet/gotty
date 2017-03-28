@@ -1,4 +1,4 @@
-box: golang:1.6.1
+box: golang:1.8.0
 
 build:
   steps:
