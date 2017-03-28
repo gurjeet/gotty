@@ -40,7 +40,7 @@ $ go get github.com/yudai/gotty
 ## Cloud Foundry Deployment
 
 ```sh
-$ cf push --random-route
+$ ./push_with_auth.sh
 ```
 
 # Usage
